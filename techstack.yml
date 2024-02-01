@@ -1,0 +1,119 @@
+repo_name: Bhautik-org1/java
+report_id: 5586e38c1509dabc86f5a3fc9588a0cd
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-01T15:33:29+00:00'
+requested_by: marcin-cebo
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Bhautik-org1/java
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/Bhautik-org1/java
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Bhautik-org1/java
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Bhautik-org1/java/blob/master/.github/workflows/commands-handler.yml
+  detection_source: ".github/workflows/commands-handler.yml"
+  last_updated_by: Serhii Mamontov
+  last_updated_on: 2023-01-03 07:23:21.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Bhautik-org1/java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: marcin-cebo
+  last_updated_on: 2022-12-06 09:26:50.000000000 Z
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/Bhautik-org1/java/blob/master/.pubnub.yml
+  detection_source: ".pubnub.yml"
+  last_updated_by: Max Presman
+  last_updated_on: 2017-01-25 00:13:16.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Bhautik-org1/java/blob/master/src/test/resources/logback.xml
+  detection_source: src/test/resources/logback.xml
+  last_updated_by: Max Presman
+  last_updated_on: 2016-04-10 07:04:50.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/Bhautik-org1/java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: marcin-cebo
+  last_updated_on: 2023-03-06 11:29:49.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Bhautik-org1/java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: marcin-cebo
+  last_updated_on: 2023-03-06 11:29:49.000000000 Z
